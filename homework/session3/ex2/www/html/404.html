@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Không tìm thấy trang</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #1f2937;
+        }
+        .error-container {
+            width: min(90%, 620px);
+            padding: 48px 32px;
+            text-align: center;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,.08);
+        }
+        .error-code {
+            margin: 0;
+            font-size: 88px;
+            line-height: 1;
+            font-weight: 700;
+            color: #2563eb;
+        }
+        h1 { margin: 20px 0 12px; font-size: 30px; }
+        p {
+            margin: 0 auto 24px;
+            max-width: 480px;
+            line-height: 1.6;
+            color: #6b7280;
+        }
+        a {
+            display: inline-block;
+            padding: 12px 22px;
+            border-radius: 8px;
+            background: #2563eb;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover { background: #1d4ed8; }
+    </style>
+</head>
+<body>
+    <main class="error-container">
+        <p class="error-code">404</p>
+        <h1>Không tìm thấy trang</h1>
+        <p>
+            Xin lỗi, đường dẫn bạn đang truy cập không tồn tại hoặc đã được thay đổi.
+            Vui lòng kiểm tra lại URL và thử lại.
+        </p>
+        <a href="/">Về trang chủ</a>
+    </main>
+</body>
+</html>
